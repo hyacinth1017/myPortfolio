@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/book.ico">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Cho's Portfolio</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col arrow-float" style="text-align: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white" class="bi bi-arrow-down-circle mt-5" viewBox="0 0 16 16" >
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                  </svg>
+            </div>
+        </div>
+        <div class="arrow-float"></div>
+    </div>
+</header>
+<main>
+    <!-- ここからはnavigation-->
+    <ul class="nav sticky-top navigation" style="justify-content:space-evenly;">            
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#aboutMe">About me</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#skill">Skill</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#works">Works</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#contact">Contact</a></li>
+    </ul>
+    <!-- ここからはabout me -->
+    <section class="aboutMe" id="aboutMe">
+        <div class="container">
+            <div class="row">
+                <div class="col"><p class="title">About me</p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3  ">
+                    <!-- ここに写真が入ります -->
+                    <img src="img/silhouette1.png" style="width: 60%;display: block; margin: auto;">
+                </div>
+                <div class="col-md-9 align-self-center ">
+                    <!-- ここに文が入ります -->
+                    <p class="fs-5 lh-lg">元留学生です。2021年4月に広島大学教育学研究科卒業して以来、日本のIT企業に就職するために、
+                        アルバイトしながら、技術の勉強と資格の取得に努力してきました。2021年8月、ITパスポート試験合格しました。2022
+                        年5月、基本情報技術者試験合格し、基本情報技術者資格を取得しました。そして、一日も早く開発現場で活躍するため
+                        に、フロントエンド（HTML/CSS/Bootstrapなど）とバックエンド（Javaの基本とフレームワーク）の知識を独学してきました。
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+    
+
+
+
+    
+        
+    </section>
+    <!-- ここからはskill -->
+    <section class="skill" id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col"> <p class="title">Skill</p></div>
+                <div class="card-group">
+                    <!-- card01 frontend -->
+                    <div class="card text-center mx-3 rounded-3 border-0 card_style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top bi bi-display pt-3" viewBox="0 0 16 16">
+                            <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+                          </svg>
+                        <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title ">フロントエンド</h4>
+                            <p class="card-text px-5 py-3 " id="cardtext">
+                                レスポンシブ対応を意識しながら開発を行っています。また、開発の効率化と標準化を図るために、Bootstrapフレームワークを使って開発をしています。
+                            </p>
+                            <p class="small">HTML / CSS / Bootstrap</p>
+                        </div>
+                    </div>
+                     <!-- card02 　backend -->
+                     <div class="card text-center mx-3 rounded-3 border-0 card_style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top  bi bi-filetype-java pt-3" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.521 15.175a1.321 1.321 0 0 1-.082-.466h.765a.577.577 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466V11.85h.79v2.725c0 .44-.118.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.568-.094 1.144 1.144 0 0 1-.408-.266 1.139 1.139 0 0 1-.243-.39Zm3.972-.354-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H5.493Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Zm2.342 1.618h.952l1.327-3.999h-.878l-.888 3.138h-.038L8.59 11.85h-.917l1.34 3.999Zm3.087-1.028-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H12.1Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Z"/>
+                          </svg>
+                          <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title">バックエンド</h4>
+                            <p class="card-text px-5 py-3" id="cardtext">
+                                独学でJavaの基礎知識を身に付け、ServletとJSPファイルによる開発をしていました。今はSpringbootによる開発をしています。詳細については<span><a href="#works" style="color:inherit">Works</a></span>をご覧ください。
+                            </p>
+                            <p class="small">Java</p>
+                        </div>
+                    </div>
+                     <!-- card03 database -->
+                     <div class="card text-center mx-3 rounded-3 border-0 card_style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top bi bi-database pt-3" viewBox="0 0 16 16">
+                            <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"/>
+                          </svg>
+                          <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title">データベース</h4>
+                            <p class="card-text px-5 py-3" id="cardtext">
+                               自己開発しているWebアプリケーションは、MySQLデータベースを利用しています。それ以前、H2データベースを使ったこともあります。
+                            </p>
+                            <p class="small">H2 / MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-3"></div>
+                <div class="card-group">
+                    <!-- card04 design -->
+                    <div class="card text-center mx-3 rounded-3 border-0 card_style" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top bi bi-image pt-3" viewBox="0 0 16 16">
+                            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                            <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+                          </svg>
+                        <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title">デザイン</h4>
+                            <p class="card-text px-5 py-3" id="cardtext">
+                                大学時代から、Photoshopを利用して写真修正、ポスター、バナーなどの制作をしてきました。一番馴染みがある画像編集ソフトです。
+                            </p>
+                            <p class="small">Photoshop</p>
+                        </div>
+                    </div>
+                     <!-- card05 vedio -->
+                     <div class="card text-center mx-3 rounded-3 border-0 card_style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top bi bi-play-btn pt-3" viewBox="0 0 16 16">
+                            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                          </svg>
+                          <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title">動画編集</h4>
+                            <p class="card-text px-5 py-3" id="cardtext">
+                                大学時代に動画編集の授業を履修しました。就職後、インタビューの映像素材を編集し、自社のウェブサイトに動画を配布した経験があります。
+                            </p>
+                            <p class="small">Premiere</p>
+                        </div>
+                    </div>
+                     <!-- card06 certification -->
+                     <div class="card text-center mx-3 rounded-3  border-0 card_style">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="card-img-top bi bi-list-ul pt-3" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                          </svg>
+                          <div class="card-body">
+                            <!-- card-body -->
+                            <h4 class="card-title">保有資格</h4>
+                            <ul class="py-3 list-group list-group-flush border-0">
+                                <li class="list-group-item">基本情報技術者</li>
+                                <li class="list-group-item">TOEIC/745点</li>
+                                <li class="list-group-item">日本語能力試験N1/165点</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>  
+    </section>
+    <!-- ここからはworks -->
+    <section class="works" id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col"><p class="title">Works</p></div>
+            </div>
+            <div class="row">
+                <!-- card1 -->
+                <div class="col-md-6">
+                    <div class="card border-0  mb-5 " style="border-radius: 30px; background-color:rgb(182,200,155);color: white;">
+                        <div class="card-body m-5">
+                            <h2 class="card-title ">ポートフォリオサイト</h4>
+                            <p class="card-text py-3 ">
+                                当個人サイトです。自己紹介、スキルシート、個人開発作品、問い合わせフォームから構成しています。
+                            </p>
+                            <ul class="list-unstyled py-3">
+                                <li>使用技術：HTML、CSS、Bootstrap</li>
+                                <li>レスポンシブ対応：有</li>
+                                <li>制作期間：5日</li>
+                                <li>ツール：Visual Studio Code、Photoshop</li>
+                            </ul>
+                            <a href="#" class="btn btn-sm  btn-light">詳細</a>
+                        </div>   
+                    </div>
+                </div>
+                 <!-- card-2 -->
+                 <div class="col-md-6">
+                    <div class="card border-0  mb-5 " style="border-radius: 30px; background-color:rgb(239,237,218);color:rgb(147,129,118);">
+                        <div class="card-body m-5">
+                            <h2 class="card-title ">MyMemo</h4>
+                            <p class="card-text py-3 ">
+                                MyMemoは自分が初めて作ってみたWebアプリケーションです。ユーザー登録、ログイン、投稿、投稿した内容の読み込み、削除、変更などの機能があります。
+                            </p>
+                            <ul class="list-unstyled py-3">
+                                <li>使用技術：Springboot、MySQL、HTML、CSS、JavaScript、Bootstrap</li>
+                                <li>レスポンシブ対応：有</li>
+                                <li>制作期間：１～２週間</li>
+                                <li>ツール：Eclipse、Visual Studio Code</li>
+                            </ul>
+                            <a href="#" class="btn btn-sm  btn-light">詳細</a>
+                        </div>   
+                    </div>
+                </div> 
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+            
+    </section>
+    <!-- ここからはコンタクト -->
+    <section class="contact" id="contact" style="padding-bottom: 100px;">
+            <p class="title">Contact</p>
+            <div class="container">
+                <form>
+                    <!-- お名前 -->
+                    <div class="row py-3">
+                        <label for="name" class="col-md-3 col-form-label">
+                            お名前<span class="badge bg-warning text-dark">必須</span>
+                        </label>
+                        <div class="col-md-9">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="someone" required>
+                                <label for="name">お名前を入力してください。</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- メールアドレス -->
+                    <div class="row py-3">
+                        <label for="mail" class="col-md-3 col-form-label">
+                            メールアドレス<span class="badge bg-warning text-dark">必須</span>
+                        </label>
+                        <div class="col-md-9">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="someone@example.com" required>
+                                <label for="mail">メールアドレスを入力してください。</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- お問い合わせ内容 -->
+                    <div class="row pt-3">
+                        <label for="textarea" class="col-md-3 col-form-label">
+                            お問い合わせ内容<span class="badge bg-warning text-dark">必須</span>
+                        </label>
+                        <div class="col-md-9">
+                            <div class="form-floating">
+                                <textarea class="form-control" id="textarea" placeholder="message" style="height: 200px;"></textarea>
+                                <label for="textarea">ご自由にお書きください。</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- プライバシーポリシー -->
+                    <div class="row pt-1 justify-content-end">
+                        <div class="col-md-9">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="check1">
+                                <label class="form-check-label" for="check1"><a href="#" style="color: black;">プライバシーポリシー</a>に同意</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 送信ボタン -->
+                    <div class="row pt-5 justify-content-center">
+                        <div class="col-md-2">
+                        <button type="submit" class="btn btn-secondary disabled">送信する</button>
+                        </div>
+                    </div>
+                </form>
+            </div>      
+    </section>
+    <div id="pagetop" ><a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"  class="bi bi-chevron-bar-up" viewBox="0 0 16 16" style="color: inherit;">
+            <path fill-rule="evenodd" d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z"/>
+          </svg></a>
+    </div>
+
+</main>
+<footer class="footer">
+    <p>Copyright ©2023 ChoKi</p>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
